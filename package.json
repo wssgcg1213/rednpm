@@ -1,0 +1,62 @@
+{
+  "name": "rednpm",
+  "version": "1.0.0",
+  "description": "rednpm: npm client for npm.redrock-team.com, modified from cnpm",
+  "main": "bin/rednpm",
+  "scripts": {
+    "test": "mocha test/*.test.js --timeout 60000",
+    "rednpm": "npm i --registry=https://registry.redrock-team.com"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "rednpm": "./bin/rednpm",
+    "rednpm-check": "./bin/rednpm-check",
+    "rednpm-sync": "./bin/rednpm-sync",
+    "rednpm-web": "./bin/rednpm-web",
+    "rednpm-user": "./bin/rednpm-user",
+    "rednpm-doc": "./bin/rednpm-doc",
+    "rednpm-search": "./bin/rednpm-search"
+  },
+  "dependencies": {
+    "auto-correct": "^1.0.0",
+    "bagpipe": "^0.3.5",
+    "colors": "^1.0.3",
+    "commander": "~2.7.1",
+    "cross-spawn": "~0.2.8",
+    "debug": "^2.2.0",
+    "giturl": "^1.0.0",
+    "npm": "^3.8.0",
+    "npm-request": "~0.0.4",
+    "open": "~0.0.5",
+    "urllib": "^2.8.0",
+    "npminstall": "^1.3.1"
+  },
+  "devDependencies": {
+    "autod": "*",
+    "fs-extra": "0",
+    "jshint": "2",
+    "mocha": "2",
+    "should": "5"
+  },
+  "homepage": "https://github.com/wssgcg1213/rednpm",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wssgcg1213/rednpm.git",
+    "web": "https://github.com/wssgcg1213/rednpm"
+  },
+  "bugs": {
+    "url": "https://github.com/wssgcg1213/rednpm/issues",
+    "email": "i@zeroling.com"
+  },
+  "keywords": [
+    "rednpm"
+  ],
+  "engines": {
+    "node": ">= 4.3.2"
+  },
+  "author": [
+    "Ling. <i@zeroling.com> (https://zeroling.com)",
+    "fengmk2 <m@fengmk2.com> (http://fengmk2.com)"
+  ],
+  "license": "MIT"
+}
