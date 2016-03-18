@@ -24,8 +24,8 @@ if (process.platform === 'win32') {
 }
 
 var config = module.exports = {
-  rednpmHost: 'http://npm.redrock-team.com',
-  rednpmRegistry: 'http://registry.redrock-team.com',
+  rednpmHost: 'http://npm.mirror.cqupt.edu.cn',
+  rednpmRegistry: 'http://registry.mirror.cqupt.edu.cn',
   disturl: 'https://npm.taobao.org/mirrors/node', // download dist tarball for node-gyp
   iojsDisturl: 'https://npm.taobao.org/mirrors/iojs',
   cache: path.join(root, '.rednpm'),  //cache folder name

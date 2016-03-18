@@ -15,7 +15,7 @@ var config = require('./config');
 
 module.exports = function outputHelp(argv) {
   var helpInfo = 'Usage: rednpm [option] <command>\n' +
-  '详细: http://npm.redrock-team.com/\n\n' +
+  '详细: http://npm.mirror.cqupt.edu.cn/\n\n' +
   '  扩展指令 \n' +
   '    web                            打开 rednpm 网站 (ex.: rednpm web)\n' +
   '    check [ingoreupdate]           检查依赖项, add ignoreupdate will not check modules\' latest version(ex.: rednpm check, rednpm check -i)\n' +

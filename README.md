@@ -16,7 +16,7 @@ $ npm install rednpm -g
 如果你是教育网用户(据说移动网也很快), 可以使用[重庆邮电大学源:
 
 ```bash
-$ npm install rednpm -g --registry=http://registry.redrock-team.com
+$ npm install rednpm -g --registry=http://registry.mirror.cqupt.edu.cn
 ```
 
 ## Usage
