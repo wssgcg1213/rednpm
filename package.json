@@ -1,6 +1,6 @@
 {
   "name": "rednpm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "rednpm: npm client for npm.mirror.cqupt.edu.cn, modified from cnpm",
   "main": "bin/rednpm",
   "scripts": {
