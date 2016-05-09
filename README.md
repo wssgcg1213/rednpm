@@ -1,11 +1,9 @@
-rednpm
-=======
-
-v1.0.0;
-
 ![rednpm](http://77uc6m.com1.z0.glb.clouddn.com/rednpm.png)
 
-rednpm: A wrapper of cnpm.
+rednpm: 教育网下的 npm 镜像, cli 客户端  
+rednpm: a mirror in CERNET, the cli client, modified from cnpm  
+
+Visit: https://npm.mirror.cqupt.edu.cn/ for more details.
 
 ## Install
 
@@ -13,14 +11,16 @@ rednpm: A wrapper of cnpm.
 $ npm install rednpm -g
 ```
 
-如果你是教育网用户(据说移动网也很快), 可以使用[重庆邮电大学源:
+如果你是教育网用户(据说移动网也很快), 可以使用 重庆邮电大学源:  
+if you are using CERNET, you can use cqupt registry:  
 
 ```bash
-$ npm install rednpm -g --registry=http://registry.mirror.cqupt.edu.cn
+$ npm install rednpm -g --registry=https://registry.mirror.cqupt.edu.cn
 ```
 
 ## Usage
 
+支持所有 `npm` 支持的命令  
 Support all commands just like `npm`.
 
 ### Sync packages from `npm`

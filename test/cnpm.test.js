@@ -89,7 +89,7 @@ describe('rednpm.test.js', function () {
     ];
     var stdout = '';
     var child = run(args, function (code) {
-      stdout.should.containEql('npm command use --registry=http://registry.redrock-team.com');
+      stdout.should.containEql('npm command use --registry=https://registry.mirror.cqupt.edu.cn');
       code.should.equal(0);
       done();
     });

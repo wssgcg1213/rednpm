@@ -1,11 +1,11 @@
 {
   "name": "rednpm",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "rednpm: 教育网下的 npm 镜像, cli 客户端 for npm.mirror.cqupt.edu.cn, modified from cnpm",
   "main": "bin/rednpm",
   "scripts": {
     "test": "mocha test/*.test.js --timeout 60000",
-    "rednpm": "npm i --registry=http://registry.mirror.cqupt.edu.cn/"
+    "rednpm": "npm i --registry=https://registry.mirror.cqupt.edu.cn/"
   },
   "preferGlobal": true,
   "bin": {

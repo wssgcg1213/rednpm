@@ -24,10 +24,10 @@ if (process.platform === 'win32') {
 }
 
 var config = module.exports = {
-  rednpmHost: 'http://npm.mirror.cqupt.edu.cn',
-  rednpmRegistry: 'http://registry.mirror.cqupt.edu.cn',
-  disturl: 'http://npm.mirror.cqupt.edu.cn/dist/node', // download dist tarball for node-gyp
-  iojsDisturl: 'http://npm.mirror.cqupt.edu.cn/dist/iojs',
+  rednpmHost: 'https://npm.mirror.cqupt.edu.cn',
+  rednpmRegistry: 'https://registry.mirror.cqupt.edu.cn',
+  disturl: 'https://npm.mirror.cqupt.edu.cn/dist/node', // download dist tarball for node-gyp
+  iojsDisturl: 'https://npm.mirror.cqupt.edu.cn/dist/iojs',
   cache: path.join(root, '.rednpm'),  //cache folder name
   userconfig: path.join(root, '.rednpmrc'),
   proxy: '',
